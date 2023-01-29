@@ -1,8 +1,8 @@
 .page {
   min-width: 1100px;
   max-width: 1600px;
-  margin: auto;
-  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 auto auto;
+  font-family: "Helvetica Neue", "Arial", "san-serif";
   font-size: 16px;
   line-height: 20px;
 }
@@ -35,7 +35,7 @@
   column-gap: 20px;
   list-style: none;
   padding: 0;
-  margin-top: 8px;
+  margin: 8px 0 0;
 }
 
 .nav__link {
@@ -342,11 +342,6 @@
 .step {
   display: flex;
   justify-content: center;
-  margin-left: auto;
-  margin-right: auto;
-  align-items: stretch;
-  align-content: stretch;
-  flex-wrap: wrap;
   flex-direction: column;
   flex-basis: 220px;
 }
@@ -375,17 +370,17 @@
   overflow: hidden;
   position: relative;
   box-sizing: border-box;
+  display: flex;
 }
 
 .about__title {
-  margin: 0;
   font-size: 20px;
   line-height: 30px;
   font-weight: 500;
   z-index: 1;
-  position: absolute;
+  position: relative;
   max-width: 154px;
-  left: 120px;
+  margin-right: 120px;
 }
 
 .about__content {
@@ -404,7 +399,6 @@
 
 .about__paragraph {
   margin: 0;
-  left: 120px;
 }
 
 .about__circle {
@@ -420,7 +414,7 @@
 
 .footer {
   box-sizing: border-box;
-  background-color: #000000;
+  background-color: #1f1f1f;
   color: #fff;
   padding: 57px 102px 60px 80px;
   min-height: 224px;
