@@ -274,7 +274,8 @@
   gap: 40px;
   flex-wrap: wrap;
   list-style-type: none;
-  margin: 68px auto auto;
+  margin: 68px auto 0;
+  padding-left: 0;
 }
 
 .card {
@@ -310,7 +311,7 @@
   font-size: 14px;
   line-height: 20px;
   color: #838383;
-  margin-top: auto 0 0;
+  margin: auto 0 0;
 }
 
 .membership {
