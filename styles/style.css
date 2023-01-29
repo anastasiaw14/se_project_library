@@ -269,14 +269,12 @@
 
 .staff__cards {
   max-width: 760px;
-  margin-top: 68px;
   display: flex;
   justify-content: center;
   gap: 40px;
   flex-wrap: wrap;
   list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
+  margin: 68px auto 0;
 }
 
 .card {
@@ -417,6 +415,7 @@
   position: absolute;
   top: -121px;
   left: -91px;
+  z-index: 0;
 }
 
 .footer {
